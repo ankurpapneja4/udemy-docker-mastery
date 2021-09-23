@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+
+  #Container Name
+  nginx-01:
+    #Image
+    image: nginx:alpine
+    #List Of Port
+    ports:
+      - '8080:80'
